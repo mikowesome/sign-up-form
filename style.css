@@ -43,6 +43,15 @@ main {
     margin-top: 0;
 }
 
+a {
+    color: rgba(234, 224, 134, 1);
+}
+
+a:hover,
+a:focus {
+    color: rgba(249, 217, 192, 1);
+}
+
 .form-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
